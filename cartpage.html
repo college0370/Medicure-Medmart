@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cartpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                    <i class="fa-solid fa-plus"></i>
+                    <a href="Mainpage.html">MEDICURE MEDMART</a>
+            </div>
+
+            
+            <div class="contactus border">
+                <p class="nav-second"><a href="productPage.html">Products</a></p>
+            </div>
+
+            
+            <div class="contactus border">
+                <p class="nav-second"><a href="Conatactpage.html">Contact Us</a></p>
+            </div>
+
+            
+            <div class="nav-cart border">
+                <i class="fa-brands fa-opencart"></i>
+                <a href="cartpage.html">Cart</a>
+            </div>
+     </div>
+    </header>
+
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <table id="cart-items">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+        <div class="cart-summary">
+            <h2>Total:  &#8377;<span id="cart-total">0.00</span></h2>
+            <button id="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel3">
+            <i class="fa-solid fa-plus"></i>
+            <a href="Mainpage.html">MEDICURE MEDMART</a>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <p>A Mini Project</p>
+            </div>
+            <div class="copyright">
+                &#169; 2024-2025, MEDICURE MEDMART, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
